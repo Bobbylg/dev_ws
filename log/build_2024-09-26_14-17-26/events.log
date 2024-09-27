@@ -1,0 +1,605 @@
+[0.000000] (-) TimerEvent: {}
+[0.000219] (delivery_robot) JobQueued: {'identifier': 'delivery_robot', 'dependencies': OrderedDict()}
+[0.000242] (diff_drive_controller) JobQueued: {'identifier': 'diff_drive_controller', 'dependencies': OrderedDict()}
+[0.000255] (force_torque_sensor_broadcaster) JobQueued: {'identifier': 'force_torque_sensor_broadcaster', 'dependencies': OrderedDict()}
+[0.000266] (forward_command_controller) JobQueued: {'identifier': 'forward_command_controller', 'dependencies': OrderedDict()}
+[0.000276] (gamepad_pkg) JobQueued: {'identifier': 'gamepad_pkg', 'dependencies': OrderedDict()}
+[0.000286] (gripper_controllers) JobQueued: {'identifier': 'gripper_controllers', 'dependencies': OrderedDict()}
+[0.000295] (imu_sensor_broadcaster) JobQueued: {'identifier': 'imu_sensor_broadcaster', 'dependencies': OrderedDict()}
+[0.000305] (joint_state_broadcaster) JobQueued: {'identifier': 'joint_state_broadcaster', 'dependencies': OrderedDict()}
+[0.000314] (joint_trajectory_controller) JobQueued: {'identifier': 'joint_trajectory_controller', 'dependencies': OrderedDict()}
+[0.000323] (parallel_gripper_controller) JobQueued: {'identifier': 'parallel_gripper_controller', 'dependencies': OrderedDict()}
+[0.000333] (pid_controller) JobQueued: {'identifier': 'pid_controller', 'dependencies': OrderedDict()}
+[0.000342] (range_sensor_broadcaster) JobQueued: {'identifier': 'range_sensor_broadcaster', 'dependencies': OrderedDict()}
+[0.000351] (ros2_controllers_test_nodes) JobQueued: {'identifier': 'ros2_controllers_test_nodes', 'dependencies': OrderedDict()}
+[0.000364] (rqt_joint_trajectory_controller) JobQueued: {'identifier': 'rqt_joint_trajectory_controller', 'dependencies': OrderedDict()}
+[0.000378] (steering_controllers_library) JobQueued: {'identifier': 'steering_controllers_library', 'dependencies': OrderedDict()}
+[0.000399] (tricycle_controller) JobQueued: {'identifier': 'tricycle_controller', 'dependencies': OrderedDict()}
+[0.000700] (ackermann_steering_controller) JobQueued: {'identifier': 'ackermann_steering_controller', 'dependencies': OrderedDict([('steering_controllers_library', '/home/bobby/dev_ws/install/steering_controllers_library')])}
+[0.000925] (admittance_controller) JobQueued: {'identifier': 'admittance_controller', 'dependencies': OrderedDict([('joint_trajectory_controller', '/home/bobby/dev_ws/install/joint_trajectory_controller')])}
+[0.000942] (bicycle_steering_controller) JobQueued: {'identifier': 'bicycle_steering_controller', 'dependencies': OrderedDict([('steering_controllers_library', '/home/bobby/dev_ws/install/steering_controllers_library')])}
+[0.000959] (effort_controllers) JobQueued: {'identifier': 'effort_controllers', 'dependencies': OrderedDict([('forward_command_controller', '/home/bobby/dev_ws/install/forward_command_controller')])}
+[0.000970] (position_controllers) JobQueued: {'identifier': 'position_controllers', 'dependencies': OrderedDict([('forward_command_controller', '/home/bobby/dev_ws/install/forward_command_controller')])}
+[0.000981] (tricycle_steering_controller) JobQueued: {'identifier': 'tricycle_steering_controller', 'dependencies': OrderedDict([('steering_controllers_library', '/home/bobby/dev_ws/install/steering_controllers_library')])}
+[0.000991] (velocity_controllers) JobQueued: {'identifier': 'velocity_controllers', 'dependencies': OrderedDict([('forward_command_controller', '/home/bobby/dev_ws/install/forward_command_controller')])}
+[0.001001] (ros2_controllers) JobQueued: {'identifier': 'ros2_controllers', 'dependencies': OrderedDict([('diff_drive_controller', '/home/bobby/dev_ws/install/diff_drive_controller'), ('force_torque_sensor_broadcaster', '/home/bobby/dev_ws/install/force_torque_sensor_broadcaster'), ('forward_command_controller', '/home/bobby/dev_ws/install/forward_command_controller'), ('imu_sensor_broadcaster', '/home/bobby/dev_ws/install/imu_sensor_broadcaster'), ('joint_state_broadcaster', '/home/bobby/dev_ws/install/joint_state_broadcaster'), ('joint_trajectory_controller', '/home/bobby/dev_ws/install/joint_trajectory_controller'), ('pid_controller', '/home/bobby/dev_ws/install/pid_controller'), ('range_sensor_broadcaster', '/home/bobby/dev_ws/install/range_sensor_broadcaster'), ('steering_controllers_library', '/home/bobby/dev_ws/install/steering_controllers_library'), ('tricycle_controller', '/home/bobby/dev_ws/install/tricycle_controller'), ('ackermann_steering_controller', '/home/bobby/dev_ws/install/ackermann_steering_controller'), ('admittance_controller', '/home/bobby/dev_ws/install/admittance_controller'), ('bicycle_steering_controller', '/home/bobby/dev_ws/install/bicycle_steering_controller'), ('effort_controllers', '/home/bobby/dev_ws/install/effort_controllers'), ('position_controllers', '/home/bobby/dev_ws/install/position_controllers'), ('tricycle_steering_controller', '/home/bobby/dev_ws/install/tricycle_steering_controller'), ('velocity_controllers', '/home/bobby/dev_ws/install/velocity_controllers')])}
+[0.001111] (forward_command_controller) JobStarted: {'identifier': 'forward_command_controller'}
+[0.004762] (steering_controllers_library) JobStarted: {'identifier': 'steering_controllers_library'}
+[0.007538] (joint_trajectory_controller) JobStarted: {'identifier': 'joint_trajectory_controller'}
+[0.009981] (diff_drive_controller) JobStarted: {'identifier': 'diff_drive_controller'}
+[0.014751] (forward_command_controller) JobProgress: {'identifier': 'forward_command_controller', 'progress': 'cmake'}
+[0.014910] (forward_command_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/bobby/dev_ws/src/ros2_controllers/forward_command_controller', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/bobby/dev_ws/install/forward_command_controller'], 'cwd': '/home/bobby/dev_ws/build/forward_command_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONWARNINGS', 'ignore'), ('USER', 'bobby'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bobby'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '2106'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/bobby/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bobby'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bobby'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/bobby:@/tmp/.ICE-unix/1420,unix/bobby:/tmp/.ICE-unix/1420'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/93c0a8fb_5229_4c5e_b76f_febb9e5a1be1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.COO1U2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/bobby/dev_ws/install/gamepad_pkg:/home/bobby/dev_ws/install/delivery_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bobby/dev_ws/build/forward_command_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/bobby/dev_ws/install/gamepad_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/bobby/dev_ws/install/delivery_robot:/home/bobby/dev_ws/install/gamepad_pkg:/opt/ros/humble')]), 'shell': False}
+[0.017117] (steering_controllers_library) JobProgress: {'identifier': 'steering_controllers_library', 'progress': 'cmake'}
+[0.017238] (steering_controllers_library) Command: {'cmd': ['/usr/bin/cmake', '/home/bobby/dev_ws/src/ros2_controllers/steering_controllers_library', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/bobby/dev_ws/install/steering_controllers_library'], 'cwd': '/home/bobby/dev_ws/build/steering_controllers_library', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONWARNINGS', 'ignore'), ('USER', 'bobby'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bobby'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '2106'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/bobby/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bobby'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bobby'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/bobby:@/tmp/.ICE-unix/1420,unix/bobby:/tmp/.ICE-unix/1420'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/93c0a8fb_5229_4c5e_b76f_febb9e5a1be1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.COO1U2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/bobby/dev_ws/install/gamepad_pkg:/home/bobby/dev_ws/install/delivery_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bobby/dev_ws/build/steering_controllers_library'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/bobby/dev_ws/install/gamepad_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/bobby/dev_ws/install/delivery_robot:/home/bobby/dev_ws/install/gamepad_pkg:/opt/ros/humble')]), 'shell': False}
+[0.021427] (joint_trajectory_controller) JobProgress: {'identifier': 'joint_trajectory_controller', 'progress': 'cmake'}
+[0.021549] (joint_trajectory_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/bobby/dev_ws/src/ros2_controllers/joint_trajectory_controller', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/bobby/dev_ws/install/joint_trajectory_controller'], 'cwd': '/home/bobby/dev_ws/build/joint_trajectory_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONWARNINGS', 'ignore'), ('USER', 'bobby'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bobby'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '2106'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/bobby/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bobby'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bobby'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/bobby:@/tmp/.ICE-unix/1420,unix/bobby:/tmp/.ICE-unix/1420'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/93c0a8fb_5229_4c5e_b76f_febb9e5a1be1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.COO1U2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/bobby/dev_ws/install/gamepad_pkg:/home/bobby/dev_ws/install/delivery_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bobby/dev_ws/build/joint_trajectory_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/bobby/dev_ws/install/gamepad_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/bobby/dev_ws/install/delivery_robot:/home/bobby/dev_ws/install/gamepad_pkg:/opt/ros/humble')]), 'shell': False}
+[0.024441] (diff_drive_controller) JobProgress: {'identifier': 'diff_drive_controller', 'progress': 'cmake'}
+[0.025734] (diff_drive_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/bobby/dev_ws/src/ros2_controllers/diff_drive_controller', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/bobby/dev_ws/install/diff_drive_controller'], 'cwd': '/home/bobby/dev_ws/build/diff_drive_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONWARNINGS', 'ignore'), ('USER', 'bobby'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bobby'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '2106'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/bobby/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bobby'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bobby'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/bobby:@/tmp/.ICE-unix/1420,unix/bobby:/tmp/.ICE-unix/1420'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/93c0a8fb_5229_4c5e_b76f_febb9e5a1be1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.COO1U2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/bobby/dev_ws/install/gamepad_pkg:/home/bobby/dev_ws/install/delivery_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bobby/dev_ws/build/diff_drive_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/bobby/dev_ws/install/gamepad_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/bobby/dev_ws/install/delivery_robot:/home/bobby/dev_ws/install/gamepad_pkg:/opt/ros/humble')]), 'shell': False}
+[0.099823] (-) TimerEvent: {}
+[0.186275] (joint_trajectory_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.186770] (diff_drive_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.187234] (steering_controllers_library) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.188601] (forward_command_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.197453] (steering_controllers_library) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.197637] (diff_drive_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.197744] (forward_command_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.197864] (joint_trajectory_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199896] (-) TimerEvent: {}
+[0.292933] (joint_trajectory_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.294490] (diff_drive_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.294622] (steering_controllers_library) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.298328] (forward_command_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.299970] (-) TimerEvent: {}
+[0.303361] (steering_controllers_library) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.304379] (joint_trajectory_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.304704] (steering_controllers_library) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.304824] (joint_trajectory_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.305637] (steering_controllers_library) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.306061] (joint_trajectory_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.306191] (diff_drive_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.306597] (diff_drive_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.307184] (diff_drive_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.312914] (forward_command_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.313062] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.313191] (forward_command_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.313330] (diff_drive_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.315524] (steering_controllers_library) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.315642] (forward_command_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.315932] (forward_command_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400074] (-) TimerEvent: {}
+[0.500535] (-) TimerEvent: {}
+[0.524343] (forward_command_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.525481] (steering_controllers_library) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.540917] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.550118] (diff_drive_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.600690] (-) TimerEvent: {}
+[0.606650] (forward_command_controller) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.620499] (joint_trajectory_controller) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.626739] (diff_drive_controller) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.632647] (steering_controllers_library) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.654128] (diff_drive_controller) StdoutLine: {'line': b'-- Found controller_interface: 2.43.1 (/opt/ros/humble/share/controller_interface/cmake)\n'}
+[0.655243] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)\n'}
+[0.655414] (forward_command_controller) StdoutLine: {'line': b'-- Found controller_interface: 2.43.1 (/opt/ros/humble/share/controller_interface/cmake)\n'}
+[0.660704] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found control_msgs: 4.6.0 (/opt/ros/humble/share/control_msgs/cmake)\n'}
+[0.661709] (steering_controllers_library) StdoutLine: {'line': b'-- Found control_msgs: 4.6.0 (/opt/ros/humble/share/control_msgs/cmake)\n'}
+[0.700935] (-) TimerEvent: {}
+[0.710885] (diff_drive_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.711058] (forward_command_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.711118] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.711189] (steering_controllers_library) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.717630] (steering_controllers_library) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.717971] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.718051] (diff_drive_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.718123] (forward_command_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.729178] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.729928] (steering_controllers_library) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.730022] (forward_command_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.731303] (diff_drive_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.747982] (steering_controllers_library) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.748196] (forward_command_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.748284] (joint_trajectory_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.748359] (diff_drive_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.771345] (steering_controllers_library) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.771556] (forward_command_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.771630] (diff_drive_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.771698] (joint_trajectory_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.801085] (-) TimerEvent: {}
+[0.901888] (-) TimerEvent: {}
+[0.950182] (steering_controllers_library) StdoutLine: {'line': b'-- Found controller_interface: 2.43.1 (/opt/ros/humble/share/controller_interface/cmake)\n'}
+[0.952775] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found control_toolbox: 3.2.0 (/opt/ros/humble/share/control_toolbox/cmake)\n'}
+[1.002184] (-) TimerEvent: {}
+[1.029461] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.036440] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.048203] (diff_drive_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.050214] (steering_controllers_library) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.051834] (forward_command_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.052289] (diff_drive_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.052935] (steering_controllers_library) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.053067] (forward_command_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.083458] (diff_drive_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.084290] (steering_controllers_library) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.084376] (forward_command_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.103450] (-) TimerEvent: {}
+[1.145259] (diff_drive_controller) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.146016] (steering_controllers_library) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.146213] (forward_command_controller) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.150200] (diff_drive_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.150404] (forward_command_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.151031] (steering_controllers_library) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.156873] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.167958] (diff_drive_controller) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.172862] (forward_command_controller) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.172959] (diff_drive_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.173017] (steering_controllers_library) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.173094] (forward_command_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.178463] (steering_controllers_library) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.181875] (diff_drive_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.186486] (steering_controllers_library) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.195785] (forward_command_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.198036] (steering_controllers_library) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.201426] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.203420] (-) TimerEvent: {}
+[1.207478] (diff_drive_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.209447] (forward_command_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.212635] (steering_controllers_library) StdoutLine: {'line': b'-- Looking for C++ include pthread.h\n'}
+[1.212781] (diff_drive_controller) StdoutLine: {'line': b'-- Looking for C++ include pthread.h\n'}
+[1.220687] (forward_command_controller) StdoutLine: {'line': b'-- Looking for C++ include pthread.h\n'}
+[1.257923] (joint_trajectory_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.268235] (joint_trajectory_controller) StdoutLine: {'line': b'-- Looking for C++ include pthread.h\n'}
+[1.303545] (-) TimerEvent: {}
+[1.326519] (diff_drive_controller) StdoutLine: {'line': b'-- Looking for C++ include pthread.h - found\n'}
+[1.327596] (forward_command_controller) StdoutLine: {'line': b'-- Looking for C++ include pthread.h - found\n'}
+[1.327789] (forward_command_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.331737] (diff_drive_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.344048] (steering_controllers_library) StdoutLine: {'line': b'-- Looking for C++ include pthread.h - found\n'}
+[1.344284] (steering_controllers_library) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.370434] (joint_trajectory_controller) StdoutLine: {'line': b'-- Looking for C++ include pthread.h - found\n'}
+[1.370635] (joint_trajectory_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.403726] (-) TimerEvent: {}
+[1.455894] (forward_command_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.456089] (forward_command_controller) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.456198] (steering_controllers_library) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.458103] (steering_controllers_library) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.468085] (diff_drive_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.472470] (diff_drive_controller) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.486528] (joint_trajectory_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.487265] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.503893] (-) TimerEvent: {}
+[1.537845] (steering_controllers_library) StdoutLine: {'line': b'-- Found generate_parameter_library: 0.3.8 (/opt/ros/humble/share/generate_parameter_library/cmake)\n'}
+[1.539077] (diff_drive_controller) StdoutLine: {'line': b'-- Found generate_parameter_library: 0.3.8 (/opt/ros/humble/share/generate_parameter_library/cmake)\n'}
+[1.539185] (forward_command_controller) StdoutLine: {'line': b'-- Found generate_parameter_library: 0.3.8 (/opt/ros/humble/share/generate_parameter_library/cmake)\n'}
+[1.541009] (steering_controllers_library) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[1.541145] (diff_drive_controller) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[1.541221] (forward_command_controller) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[1.563592] (forward_command_controller) StdoutLine: {'line': b'-- Found realtime_tools: 2.6.0 (/opt/ros/humble/share/realtime_tools/cmake)\n'}
+[1.564131] (steering_controllers_library) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.564223] (diff_drive_controller) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.568509] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[1.585672] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[1.593360] (steering_controllers_library) StdoutLine: {'line': b'-- Found realtime_tools: 2.6.0 (/opt/ros/humble/share/realtime_tools/cmake)\n'}
+[1.595009] (diff_drive_controller) StdoutLine: {'line': b'-- Found realtime_tools: 2.6.0 (/opt/ros/humble/share/realtime_tools/cmake)\n'}
+[1.596165] (forward_command_controller) StdoutLine: {'line': b'-- Found ament_cmake_gmock: 1.3.10 (/opt/ros/humble/share/ament_cmake_gmock/cmake)\n'}
+[1.599335] (forward_command_controller) StdoutLine: {'line': b'-- Found controller_manager: 2.43.1 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[1.603977] (-) TimerEvent: {}
+[1.610624] (steering_controllers_library) StdoutLine: {'line': b'-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[1.612422] (diff_drive_controller) StdoutLine: {'line': b'-- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.619845] (diff_drive_controller) StdoutLine: {'line': b'-- Found tf2_msgs: 0.25.8 (/opt/ros/humble/share/tf2_msgs/cmake)\n'}
+[1.628717] (steering_controllers_library) StdoutLine: {'line': b'-- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.635093] (steering_controllers_library) StdoutLine: {'line': b'-- Found tf2_msgs: 0.25.8 (/opt/ros/humble/share/tf2_msgs/cmake)\n'}
+[1.636436] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found controller_interface: 2.43.1 (/opt/ros/humble/share/controller_interface/cmake)\n'}
+[1.637962] (forward_command_controller) StdoutLine: {'line': b'-- Found ros2_control_test_assets: 2.43.1 (/opt/ros/humble/share/ros2_control_test_assets/cmake)\n'}
+[1.643766] (forward_command_controller) StdoutLine: {'line': b"-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built\n"}
+[1.657876] (steering_controllers_library) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[1.660289] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)\n'}
+[1.668978] (diff_drive_controller) StdoutLine: {'line': b'-- Found ament_cmake_gmock: 1.3.10 (/opt/ros/humble/share/ament_cmake_gmock/cmake)\n'}
+[1.669283] (steering_controllers_library) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.670512] (diff_drive_controller) StdoutLine: {'line': b'-- Found controller_manager: 2.43.1 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[1.671905] (steering_controllers_library) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.672606] (steering_controllers_library) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.686529] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found ament_cmake_gmock: 1.3.10 (/opt/ros/humble/share/ament_cmake_gmock/cmake)\n'}
+[1.689398] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found controller_manager: 2.43.1 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[1.702025] (diff_drive_controller) StdoutLine: {'line': b'-- Found ros2_control_test_assets: 2.43.1 (/opt/ros/humble/share/ros2_control_test_assets/cmake)\n'}
+[1.702238] (diff_drive_controller) StdoutLine: {'line': b"-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built\n"}
+[1.704066] (-) TimerEvent: {}
+[1.720921] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found ros2_control_test_assets: 2.43.1 (/opt/ros/humble/share/ros2_control_test_assets/cmake)\n'}
+[1.723891] (joint_trajectory_controller) StdoutLine: {'line': b"-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built\n"}
+[1.730750] (steering_controllers_library) StdoutLine: {'line': b'-- Found ackermann_msgs: 2.0.2 (/opt/ros/humble/share/ackermann_msgs/cmake)\n'}
+[1.736103] (forward_command_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.746707] (forward_command_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.747151] (diff_drive_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.755516] (diff_drive_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.775465] (joint_trajectory_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.781511] (steering_controllers_library) StdoutLine: {'line': b'-- Found ament_cmake_gmock: 1.3.10 (/opt/ros/humble/share/ament_cmake_gmock/cmake)\n'}
+[1.781747] (steering_controllers_library) StdoutLine: {'line': b'-- Found controller_manager: 2.43.1 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[1.785147] (joint_trajectory_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.804187] (-) TimerEvent: {}
+[1.812385] (steering_controllers_library) StdoutLine: {'line': b'-- Found ros2_control_test_assets: 2.43.1 (/opt/ros/humble/share/ros2_control_test_assets/cmake)\n'}
+[1.815778] (steering_controllers_library) StdoutLine: {'line': b"-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built\n"}
+[1.837572] (forward_command_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.838734] (diff_drive_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.849799] (forward_command_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.850277] (diff_drive_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.850478] (diff_drive_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.850631] (forward_command_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.851128] (diff_drive_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.851585] (forward_command_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.857796] (forward_command_controller) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[1.858198] (diff_drive_controller) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[1.860603] (forward_command_controller) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.860880] (diff_drive_controller) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.867919] (steering_controllers_library) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.877181] (steering_controllers_library) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.879717] (joint_trajectory_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.891826] (joint_trajectory_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.892023] (joint_trajectory_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.893304] (joint_trajectory_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.898337] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[1.899972] (joint_trajectory_controller) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.904287] (-) TimerEvent: {}
+[1.998772] (steering_controllers_library) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.005290] (-) TimerEvent: {}
+[2.010856] (diff_drive_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.011153] (steering_controllers_library) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.011278] (steering_controllers_library) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.011352] (steering_controllers_library) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.017210] (steering_controllers_library) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[2.020920] (steering_controllers_library) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[2.023461] (forward_command_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.035500] (joint_trajectory_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.051434] (steering_controllers_library) StdoutLine: {'line': b"-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built\n"}
+[2.051647] (steering_controllers_library) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[2.052286] (steering_controllers_library) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[2.106052] (-) TimerEvent: {}
+[2.125553] (diff_drive_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[2.128429] (diff_drive_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/bobby/dev_ws/build/diff_drive_controller\n'}
+[2.131226] (steering_controllers_library) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.149466] (diff_drive_controller) CommandEnded: {'returncode': 0}
+[2.149987] (diff_drive_controller) JobProgress: {'identifier': 'diff_drive_controller', 'progress': 'build'}
+[2.150018] (diff_drive_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bobby/dev_ws/build/diff_drive_controller', '--', '-j4', '-l4'], 'cwd': '/home/bobby/dev_ws/build/diff_drive_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONWARNINGS', 'ignore'), ('USER', 'bobby'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bobby'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '2106'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/bobby/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bobby'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bobby'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/bobby:@/tmp/.ICE-unix/1420,unix/bobby:/tmp/.ICE-unix/1420'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/93c0a8fb_5229_4c5e_b76f_febb9e5a1be1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.COO1U2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/bobby/dev_ws/install/gamepad_pkg:/home/bobby/dev_ws/install/delivery_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bobby/dev_ws/build/diff_drive_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/bobby/dev_ws/install/gamepad_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/bobby/dev_ws/install/delivery_robot:/home/bobby/dev_ws/install/gamepad_pkg:/opt/ros/humble')]), 'shell': False}
+[2.199244] (steering_controllers_library) StdoutLine: {'line': b'-- Generating done\n'}
+[2.205619] (steering_controllers_library) StdoutLine: {'line': b'-- Build files have been written to: /home/bobby/dev_ws/build/steering_controllers_library\n'}
+[2.208455] (-) TimerEvent: {}
+[2.208826] (joint_trajectory_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[2.214576] (joint_trajectory_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/bobby/dev_ws/build/joint_trajectory_controller\n'}
+[2.221107] (forward_command_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[2.229808] (forward_command_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/bobby/dev_ws/build/forward_command_controller\n'}
+[2.239138] (diff_drive_controller) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/bobby/dev_ws/build/diff_drive_controller/diff_drive_controller_parameters/include//diff_drive_controller_parameters.hpp /home/bobby/dev_ws/src/ros2_controllers/diff_drive_controller/src/diff_drive_controller_parameter.yaml `\x1b[0m\n'}
+[2.239368] (diff_drive_controller) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o\x1b[0m\n'}
+[2.239577] (diff_drive_controller) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o\x1b[0m\n'}
+[2.242863] (diff_drive_controller) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o\x1b[0m\n'}
+[2.258628] (forward_command_controller) CommandEnded: {'returncode': 0}
+[2.259129] (forward_command_controller) JobProgress: {'identifier': 'forward_command_controller', 'progress': 'build'}
+[2.259160] (forward_command_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bobby/dev_ws/build/forward_command_controller', '--', '-j4', '-l4'], 'cwd': '/home/bobby/dev_ws/build/forward_command_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONWARNINGS', 'ignore'), ('USER', 'bobby'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bobby'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '2106'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/bobby/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bobby'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bobby'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/bobby:@/tmp/.ICE-unix/1420,unix/bobby:/tmp/.ICE-unix/1420'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/93c0a8fb_5229_4c5e_b76f_febb9e5a1be1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.COO1U2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/bobby/dev_ws/install/gamepad_pkg:/home/bobby/dev_ws/install/delivery_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bobby/dev_ws/build/forward_command_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/bobby/dev_ws/install/gamepad_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/bobby/dev_ws/install/delivery_robot:/home/bobby/dev_ws/install/gamepad_pkg:/opt/ros/humble')]), 'shell': False}
+[2.267291] (steering_controllers_library) CommandEnded: {'returncode': 0}
+[2.267775] (steering_controllers_library) JobProgress: {'identifier': 'steering_controllers_library', 'progress': 'build'}
+[2.267806] (steering_controllers_library) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bobby/dev_ws/build/steering_controllers_library', '--', '-j4', '-l4'], 'cwd': '/home/bobby/dev_ws/build/steering_controllers_library', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONWARNINGS', 'ignore'), ('USER', 'bobby'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bobby'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '2106'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/bobby/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bobby'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bobby'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/bobby:@/tmp/.ICE-unix/1420,unix/bobby:/tmp/.ICE-unix/1420'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/93c0a8fb_5229_4c5e_b76f_febb9e5a1be1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.COO1U2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/bobby/dev_ws/install/gamepad_pkg:/home/bobby/dev_ws/install/delivery_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bobby/dev_ws/build/steering_controllers_library'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/bobby/dev_ws/install/gamepad_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/bobby/dev_ws/install/delivery_robot:/home/bobby/dev_ws/install/gamepad_pkg:/opt/ros/humble')]), 'shell': False}
+[2.270483] (joint_trajectory_controller) CommandEnded: {'returncode': 0}
+[2.276524] (joint_trajectory_controller) JobProgress: {'identifier': 'joint_trajectory_controller', 'progress': 'build'}
+[2.276988] (joint_trajectory_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bobby/dev_ws/build/joint_trajectory_controller', '--', '-j4', '-l4'], 'cwd': '/home/bobby/dev_ws/build/joint_trajectory_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONWARNINGS', 'ignore'), ('USER', 'bobby'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bobby'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '2106'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/bobby/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bobby'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bobby'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/bobby:@/tmp/.ICE-unix/1420,unix/bobby:/tmp/.ICE-unix/1420'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/93c0a8fb_5229_4c5e_b76f_febb9e5a1be1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.COO1U2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/bobby/dev_ws/install/gamepad_pkg:/home/bobby/dev_ws/install/delivery_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bobby/dev_ws/build/joint_trajectory_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/bobby/dev_ws/install/gamepad_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/bobby/dev_ws/install/delivery_robot:/home/bobby/dev_ws/install/gamepad_pkg:/opt/ros/humble')]), 'shell': False}
+[2.308552] (-) TimerEvent: {}
+[2.371973] (forward_command_controller) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o\x1b[0m\n'}
+[2.375047] (steering_controllers_library) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o\x1b[0m\n'}
+[2.394072] (forward_command_controller) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/bobby/dev_ws/build/forward_command_controller/multi_interface_forward_command_controller_parameters/include//multi_interface_forward_command_controller_parameters.hpp /home/bobby/dev_ws/src/ros2_controllers/forward_command_controller/src/multi_interface_forward_command_controller_parameters.yaml `\x1b[0m\n'}
+[2.394912] (steering_controllers_library) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/bobby/dev_ws/build/steering_controllers_library/steering_controllers_library_parameters/include//steering_controllers_library_parameters.hpp /home/bobby/dev_ws/src/ros2_controllers/steering_controllers_library/src/steering_controllers_library.yaml `\x1b[0m\n'}
+[2.403525] (forward_command_controller) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o\x1b[0m\n'}
+[2.404633] (forward_command_controller) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/bobby/dev_ws/build/forward_command_controller/forward_command_controller_parameters/include//forward_command_controller_parameters.hpp /home/bobby/dev_ws/src/ros2_controllers/forward_command_controller/src/forward_command_controller_parameters.yaml `\x1b[0m\n'}
+[2.408642] (-) TimerEvent: {}
+[2.413398] (steering_controllers_library) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o\x1b[0m\n'}
+[2.436912] (joint_trajectory_controller) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o\x1b[0m\n'}
+[2.443970] (joint_trajectory_controller) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o\x1b[0m\n'}
+[2.454574] (steering_controllers_library) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o\x1b[0m\n'}
+[2.480215] (joint_trajectory_controller) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o\x1b[0m\n'}
+[2.502184] (joint_trajectory_controller) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mRunning `/usr/bin/cmake -E copy /home/bobby/dev_ws/src/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/validate_jtc_parameters.hpp /home/bobby/dev_ws/build/joint_trajectory_controller/joint_trajectory_controller_parameters/include/validate_jtc_parameters.hpp`\x1b[0m\n'}
+[2.515784] (-) TimerEvent: {}
+[2.575639] (joint_trajectory_controller) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/bobby/dev_ws/build/joint_trajectory_controller/joint_trajectory_controller_parameters/include//joint_trajectory_controller_parameters.hpp /home/bobby/dev_ws/src/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller_parameters.yaml validate_jtc_parameters.hpp`\x1b[0m\n'}
+[2.618333] (-) TimerEvent: {}
+[2.720444] (-) TimerEvent: {}
+[2.825915] (-) TimerEvent: {}
+[2.928452] (-) TimerEvent: {}
+[2.934995] (forward_command_controller) StdoutLine: {'line': b'[ 21%] Built target multi_interface_forward_command_controller_parameters\n'}
+[2.961784] (forward_command_controller) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o\x1b[0m\n'}
+[3.031446] (-) TimerEvent: {}
+[3.131779] (-) TimerEvent: {}
+[3.232116] (-) TimerEvent: {}
+[3.314657] (forward_command_controller) StdoutLine: {'line': b'[ 26%] Built target forward_command_controller_parameters\n'}
+[3.337471] (-) TimerEvent: {}
+[3.419626] (forward_command_controller) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/forward_command_controller.dir/src/forward_controllers_base.cpp.o\x1b[0m\n'}
+[3.440458] (-) TimerEvent: {}
+[3.542450] (-) TimerEvent: {}
+[3.645153] (-) TimerEvent: {}
+[3.745878] (-) TimerEvent: {}
+[3.846450] (-) TimerEvent: {}
+[3.963479] (-) TimerEvent: {}
+[4.066865] (-) TimerEvent: {}
+[4.171453] (-) TimerEvent: {}
+[4.272085] (-) TimerEvent: {}
+[4.379453] (-) TimerEvent: {}
+[4.479928] (-) TimerEvent: {}
+[4.580998] (-) TimerEvent: {}
+[4.681882] (-) TimerEvent: {}
+[4.785537] (-) TimerEvent: {}
+[4.892648] (-) TimerEvent: {}
+[5.002548] (-) TimerEvent: {}
+[5.105216] (-) TimerEvent: {}
+[5.209960] (-) TimerEvent: {}
+[5.320133] (-) TimerEvent: {}
+[5.422589] (-) TimerEvent: {}
+[5.525567] (-) TimerEvent: {}
+[5.625976] (-) TimerEvent: {}
+[5.726317] (-) TimerEvent: {}
+[5.826678] (-) TimerEvent: {}
+[5.927202] (-) TimerEvent: {}
+[5.941321] (steering_controllers_library) StdoutLine: {'line': b'[ 30%] Built target steering_controllers_library_parameters\n'}
+[6.027633] (-) TimerEvent: {}
+[6.093066] (steering_controllers_library) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/steering_controllers_library.dir/src/steering_controllers_library.cpp.o\x1b[0m\n'}
+[6.138044] (-) TimerEvent: {}
+[6.238554] (-) TimerEvent: {}
+[6.339586] (-) TimerEvent: {}
+[6.442039] (-) TimerEvent: {}
+[6.547457] (-) TimerEvent: {}
+[6.650457] (-) TimerEvent: {}
+[6.750982] (-) TimerEvent: {}
+[6.857258] (-) TimerEvent: {}
+[6.957796] (-) TimerEvent: {}
+[7.061455] (-) TimerEvent: {}
+[7.161983] (-) TimerEvent: {}
+[7.264467] (-) TimerEvent: {}
+[7.365004] (-) TimerEvent: {}
+[7.466338] (-) TimerEvent: {}
+[7.571472] (-) TimerEvent: {}
+[7.673669] (-) TimerEvent: {}
+[7.776454] (-) TimerEvent: {}
+[7.881465] (-) TimerEvent: {}
+[7.983488] (-) TimerEvent: {}
+[8.083992] (-) TimerEvent: {}
+[8.128827] (joint_trajectory_controller) StdoutLine: {'line': b'[ 25%] Built target joint_trajectory_controller_parameters\n'}
+[8.184104] (-) TimerEvent: {}
+[8.286469] (-) TimerEvent: {}
+[8.389851] (-) TimerEvent: {}
+[8.493473] (-) TimerEvent: {}
+[8.598468] (-) TimerEvent: {}
+[8.703494] (-) TimerEvent: {}
+[8.803895] (-) TimerEvent: {}
+[8.913467] (-) TimerEvent: {}
+[9.013947] (-) TimerEvent: {}
+[9.115351] (-) TimerEvent: {}
+[9.215917] (-) TimerEvent: {}
+[9.272084] (diff_drive_controller) StdoutLine: {'line': b'[ 28%] Built target diff_drive_controller_parameters\n'}
+[9.316035] (-) TimerEvent: {}
+[9.417436] (-) TimerEvent: {}
+[9.468659] (diff_drive_controller) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX static library libgmock_main.a\x1b[0m\n'}
+[9.517896] (-) TimerEvent: {}
+[9.622139] (-) TimerEvent: {}
+[9.623180] (diff_drive_controller) StdoutLine: {'line': b'[ 35%] Built target gmock_main\n'}
+[9.722354] (-) TimerEvent: {}
+[9.822881] (-) TimerEvent: {}
+[9.923414] (-) TimerEvent: {}
+[10.024708] (-) TimerEvent: {}
+[10.090407] (joint_trajectory_controller) StdoutLine: {'line': b'[ 30%] \x1b[32m\x1b[1mLinking CXX static library libgmock_main.a\x1b[0m\n'}
+[10.124817] (-) TimerEvent: {}
+[10.221608] (joint_trajectory_controller) StdoutLine: {'line': b'[ 30%] Built target gmock_main\n'}
+[10.225022] (-) TimerEvent: {}
+[10.326739] (-) TimerEvent: {}
+[10.427169] (-) TimerEvent: {}
+[10.527529] (-) TimerEvent: {}
+[10.628891] (-) TimerEvent: {}
+[10.730676] (-) TimerEvent: {}
+[10.832550] (-) TimerEvent: {}
+[10.933533] (-) TimerEvent: {}
+[10.953047] (steering_controllers_library) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX static library libgmock_main.a\x1b[0m\n'}
+[11.033797] (-) TimerEvent: {}
+[11.037595] (steering_controllers_library) StdoutLine: {'line': b'[ 46%] Built target gmock_main\n'}
+[11.133908] (-) TimerEvent: {}
+[11.234895] (-) TimerEvent: {}
+[11.328335] (forward_command_controller) StdoutLine: {'line': b'[ 36%] \x1b[32m\x1b[1mLinking CXX static library libgmock_main.a\x1b[0m\n'}
+[11.335826] (-) TimerEvent: {}
+[11.436185] (-) TimerEvent: {}
+[11.488529] (forward_command_controller) StdoutLine: {'line': b'[ 36%] Built target gmock_main\n'}
+[11.537728] (-) TimerEvent: {}
+[11.638113] (-) TimerEvent: {}
+[11.738468] (-) TimerEvent: {}
+[11.839705] (-) TimerEvent: {}
+[11.940441] (-) TimerEvent: {}
+[12.041607] (-) TimerEvent: {}
+[12.142677] (-) TimerEvent: {}
+[12.243899] (-) TimerEvent: {}
+[12.345377] (-) TimerEvent: {}
+[12.445891] (-) TimerEvent: {}
+[12.547478] (-) TimerEvent: {}
+[12.648147] (-) TimerEvent: {}
+[12.749040] (-) TimerEvent: {}
+[12.850267] (-) TimerEvent: {}
+[12.950884] (-) TimerEvent: {}
+[13.052009] (-) TimerEvent: {}
+[13.154469] (-) TimerEvent: {}
+[13.254956] (-) TimerEvent: {}
+[13.356552] (-) TimerEvent: {}
+[13.457017] (-) TimerEvent: {}
+[13.557706] (-) TimerEvent: {}
+[13.661466] (-) TimerEvent: {}
+[13.762012] (-) TimerEvent: {}
+[13.862526] (-) TimerEvent: {}
+[13.965465] (-) TimerEvent: {}
+[14.065998] (-) TimerEvent: {}
+[14.168480] (-) TimerEvent: {}
+[14.268995] (-) TimerEvent: {}
+[14.370466] (-) TimerEvent: {}
+[14.470958] (-) TimerEvent: {}
+[14.574506] (-) TimerEvent: {}
+[14.675117] (-) TimerEvent: {}
+[14.775744] (-) TimerEvent: {}
+[14.876364] (-) TimerEvent: {}
+[14.976978] (-) TimerEvent: {}
+[15.059565] (diff_drive_controller) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX static library libgmock.a\x1b[0m\n'}
+[15.077091] (-) TimerEvent: {}
+[15.177603] (-) TimerEvent: {}
+[15.233464] (diff_drive_controller) StdoutLine: {'line': b'[ 42%] Built target gmock\n'}
+[15.281508] (-) TimerEvent: {}
+[15.281920] (diff_drive_controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/diff_drive_controller.dir/src/diff_drive_controller.cpp.o\x1b[0m\n'}
+[15.381962] (-) TimerEvent: {}
+[15.482333] (-) TimerEvent: {}
+[15.582924] (-) TimerEvent: {}
+[15.685004] (-) TimerEvent: {}
+[15.748606] (steering_controllers_library) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX static library libgmock.a\x1b[0m\n'}
+[15.785123] (-) TimerEvent: {}
+[15.842938] (forward_command_controller) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX static library libgmock.a\x1b[0m\n'}
+[15.885246] (-) TimerEvent: {}
+[15.904982] (steering_controllers_library) StdoutLine: {'line': b'[ 53%] Built target gmock\n'}
+[15.961410] (forward_command_controller) StdoutLine: {'line': b'[ 42%] Built target gmock\n'}
+[15.985379] (-) TimerEvent: {}
+[16.085905] (-) TimerEvent: {}
+[16.139842] (steering_controllers_library) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/bobby/dev_ws/src/ros2_controllers/steering_controllers_library/src/steering_controllers_library.cpp:15\x1b[m\x1b[K:\n'}
+[16.140736] (steering_controllers_library) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bobby/dev_ws/src/ros2_controllers/steering_controllers_library/include/steering_controllers_library/steering_controllers_library.hpp:73:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcontroller_interface::return_type steering_controllers_library::SteeringControllersLibrary::update_reference_from_subscribers(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99 marked \xe2\x80\x98\x1b[01m\x1b[Koverride\x1b[m\x1b[K\xe2\x80\x99, but does not override\n'}
+[16.144147] (steering_controllers_library) StderrLine: {'line': b'   73 |   \x1b[01;31m\x1b[Kupdate_reference_from_subscribers\x1b[m\x1b[K(\n'}
+[16.144902] (steering_controllers_library) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.186016] (-) TimerEvent: {}
+[16.237339] (joint_trajectory_controller) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX static library libgmock.a\x1b[0m\n'}
+[16.286134] (-) TimerEvent: {}
+[16.324133] (joint_trajectory_controller) StdoutLine: {'line': b'[ 35%] Built target gmock\n'}
+[16.353054] (joint_trajectory_controller) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/joint_trajectory_controller.dir/src/joint_trajectory_controller.cpp.o\x1b[0m\n'}
+[16.386242] (-) TimerEvent: {}
+[16.486821] (-) TimerEvent: {}
+[16.587399] (-) TimerEvent: {}
+[16.687972] (-) TimerEvent: {}
+[16.791756] (-) TimerEvent: {}
+[16.892339] (-) TimerEvent: {}
+[16.992968] (-) TimerEvent: {}
+[17.093468] (-) TimerEvent: {}
+[17.194064] (-) TimerEvent: {}
+[17.294569] (-) TimerEvent: {}
+[17.395203] (-) TimerEvent: {}
+[17.495832] (-) TimerEvent: {}
+[17.596565] (-) TimerEvent: {}
+[17.698666] (-) TimerEvent: {}
+[17.799167] (-) TimerEvent: {}
+[17.899709] (-) TimerEvent: {}
+[18.000223] (-) TimerEvent: {}
+[18.103618] (-) TimerEvent: {}
+[18.204139] (-) TimerEvent: {}
+[18.304660] (-) TimerEvent: {}
+[18.405175] (-) TimerEvent: {}
+[18.505695] (-) TimerEvent: {}
+[18.606201] (-) TimerEvent: {}
+[18.706859] (-) TimerEvent: {}
+[18.807541] (-) TimerEvent: {}
+[18.908869] (-) TimerEvent: {}
+[19.009382] (-) TimerEvent: {}
+[19.110001] (-) TimerEvent: {}
+[19.210983] (-) TimerEvent: {}
+[19.312439] (-) TimerEvent: {}
+[19.412953] (-) TimerEvent: {}
+[19.463950] (diff_drive_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bobby/dev_ws/src/ros2_controllers/diff_drive_controller/src/diff_drive_controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual controller_interface::return_type diff_drive_controller::DiffDriveController::update(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[19.464781] (diff_drive_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bobby/dev_ws/src/ros2_controllers/diff_drive_controller/src/diff_drive_controller.cpp:104:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kget_lifecycle_state\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_lifecycle_state_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[19.466337] (diff_drive_controller) StderrLine: {'line': b'  104 |   if (\x1b[01;31m\x1b[Kget_lifecycle_state\x1b[m\x1b[K().id() == State::PRIMARY_STATE_INACTIVE)\n'}
+[19.466558] (diff_drive_controller) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.466640] (diff_drive_controller) StderrLine: {'line': b'      |       \x1b[32m\x1b[Krcl_lifecycle_state_t\x1b[m\x1b[K\n'}
+[19.513069] (-) TimerEvent: {}
+[19.614930] (-) TimerEvent: {}
+[19.715614] (-) TimerEvent: {}
+[19.816135] (-) TimerEvent: {}
+[19.917463] (-) TimerEvent: {}
+[20.018078] (-) TimerEvent: {}
+[20.119604] (-) TimerEvent: {}
+[20.220177] (-) TimerEvent: {}
+[20.246180] (steering_controllers_library) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/steering_controllers_library.dir/build.make:76: CMakeFiles/steering_controllers_library.dir/src/steering_controllers_library.cpp.o] Error 1\n'}
+[20.251692] (steering_controllers_library) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:206: CMakeFiles/steering_controllers_library.dir/all] Error 2\n'}
+[20.252823] (steering_controllers_library) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[20.253295] (steering_controllers_library) CommandEnded: {'returncode': 2}
+[20.317867] (steering_controllers_library) JobEnded: {'identifier': 'steering_controllers_library', 'rc': 2}
+[20.320271] (-) TimerEvent: {}
+[20.420805] (-) TimerEvent: {}
+[20.521164] (-) TimerEvent: {}
+[20.621527] (-) TimerEvent: {}
+[20.676613] (joint_trajectory_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bobby/dev_ws/src/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual controller_interface::CallbackReturn joint_trajectory_controller::JointTrajectoryController::on_init()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.677428] (joint_trajectory_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bobby/dev_ws/src/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:58:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kget_robot_description\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kgoal_event_descriptions\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[20.677537] (joint_trajectory_controller) StderrLine: {'line': b'   58 |   const std::string & urdf = \x1b[01;31m\x1b[Kget_robot_description\x1b[m\x1b[K();\n'}
+[20.677609] (joint_trajectory_controller) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.677677] (joint_trajectory_controller) StderrLine: {'line': b'      |                              \x1b[32m\x1b[Kgoal_event_descriptions\x1b[m\x1b[K\n'}
+[20.696448] (joint_trajectory_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bobby/dev_ws/src/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual controller_interface::return_type joint_trajectory_controller::JointTrajectoryController::update(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.697206] (joint_trajectory_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bobby/dev_ws/src/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:140:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kget_lifecycle_state\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_lifecycle_state_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[20.697314] (joint_trajectory_controller) StderrLine: {'line': b'  140 |   if (\x1b[01;31m\x1b[Kget_lifecycle_state\x1b[m\x1b[K().id() == lifecycle_msgs::msg::State::PRIMARY_STATE_INACTIVE)\n'}
+[20.697373] (joint_trajectory_controller) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.697436] (joint_trajectory_controller) StderrLine: {'line': b'      |       \x1b[32m\x1b[Krcl_lifecycle_state_t\x1b[m\x1b[K\n'}
+[20.724509] (-) TimerEvent: {}
+[20.778355] (joint_trajectory_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bobby/dev_ws/src/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid joint_trajectory_controller::JointTrajectoryController::query_state_service(std::shared_ptr<control_msgs::srv::QueryTrajectoryState_Request_<std::allocator<void> > >, std::shared_ptr<control_msgs::srv::QueryTrajectoryState_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.778690] (joint_trajectory_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bobby/dev_ws/src/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:596:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kget_lifecycle_state\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_lifecycle_state_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[20.778782] (joint_trajectory_controller) StderrLine: {'line': b'  596 |   if (\x1b[01;31m\x1b[Kget_lifecycle_state\x1b[m\x1b[K().id() != lifecycle_msgs::msg::State::PRIMARY_STATE_ACTIVE)\n'}
+[20.778845] (joint_trajectory_controller) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.778903] (joint_trajectory_controller) StderrLine: {'line': b'      |       \x1b[32m\x1b[Krcl_lifecycle_state_t\x1b[m\x1b[K\n'}
+[20.824645] (-) TimerEvent: {}
+[20.860674] (joint_trajectory_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bobby/dev_ws/src/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Krclcpp_action::GoalResponse joint_trajectory_controller::JointTrajectoryController::goal_received_callback(const GoalUUID&, std::shared_ptr<const control_msgs::action::FollowJointTrajectory_Goal_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.861590] (joint_trajectory_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bobby/dev_ws/src/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:1115:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kget_lifecycle_state\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_lifecycle_state_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[20.862235] (joint_trajectory_controller) StderrLine: {'line': b' 1115 |   if (\x1b[01;31m\x1b[Kget_lifecycle_state\x1b[m\x1b[K().id() == lifecycle_msgs::msg::State::PRIMARY_STATE_INACTIVE)\n'}
+[20.862850] (joint_trajectory_controller) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.863460] (joint_trajectory_controller) StderrLine: {'line': b'      |       \x1b[32m\x1b[Krcl_lifecycle_state_t\x1b[m\x1b[K\n'}
+[20.924793] (-) TimerEvent: {}
+[21.025558] (-) TimerEvent: {}
+[21.125912] (-) TimerEvent: {}
+[21.226270] (-) TimerEvent: {}
+[21.329674] (-) TimerEvent: {}
+[21.430335] (-) TimerEvent: {}
+[21.531361] (-) TimerEvent: {}
+[21.632027] (-) TimerEvent: {}
+[21.733144] (-) TimerEvent: {}
+[21.833655] (-) TimerEvent: {}
+[21.934338] (-) TimerEvent: {}
+[22.034948] (-) TimerEvent: {}
+[22.135661] (-) TimerEvent: {}
+[22.236154] (-) TimerEvent: {}
+[22.336477] (-) TimerEvent: {}
+[22.436826] (-) TimerEvent: {}
+[22.537312] (-) TimerEvent: {}
+[22.637883] (-) TimerEvent: {}
+[22.738457] (-) TimerEvent: {}
+[22.838839] (-) TimerEvent: {}
+[22.939265] (-) TimerEvent: {}
+[23.039627] (-) TimerEvent: {}
+[23.140010] (-) TimerEvent: {}
+[23.240676] (-) TimerEvent: {}
+[23.297921] (forward_command_controller) StderrLine: {'line': b'\x1b[01m\x1b[Kcc1plus:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[K/home/bobby/dev_ws/src/ros2_controllers/forward_command_controller/src/multi_interface_forward_command_controller.cpp: No such file or directory\n'}
+[23.299681] (forward_command_controller) StderrLine: {'line': b'compilation terminated.\n'}
+[23.300467] (forward_command_controller) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/forward_command_controller.dir/build.make:104: CMakeFiles/forward_command_controller.dir/src/multi_interface_forward_command_controller.cpp.o] Error 1\n'}
+[23.301536] (forward_command_controller) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:239: CMakeFiles/forward_command_controller.dir/all] Error 2\n'}
+[23.301637] (forward_command_controller) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[23.301707] (forward_command_controller) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/forward_command_controller.dir/src/multi_interface_forward_command_controller.cpp.o\x1b[0m\n'}
+[23.301801] (forward_command_controller) JobEnded: {'identifier': 'forward_command_controller', 'rc': 'SIGINT'}
+[23.340790] (-) TimerEvent: {}
+[23.402068] (diff_drive_controller) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/diff_drive_controller.dir/build.make:76: CMakeFiles/diff_drive_controller.dir/src/diff_drive_controller.cpp.o] Error 1\n'}
+[23.402308] (diff_drive_controller) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:206: CMakeFiles/diff_drive_controller.dir/all] Error 2\n'}
+[23.403198] (diff_drive_controller) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[23.404868] (diff_drive_controller) JobEnded: {'identifier': 'diff_drive_controller', 'rc': 'SIGINT'}
+[23.440893] (-) TimerEvent: {}
+[23.541183] (-) TimerEvent: {}
+[23.641465] (-) TimerEvent: {}
+[23.741782] (-) TimerEvent: {}
+[23.842152] (-) TimerEvent: {}
+[23.942868] (-) TimerEvent: {}
+[24.043170] (-) TimerEvent: {}
+[24.143494] (-) TimerEvent: {}
+[24.243864] (-) TimerEvent: {}
+[24.344130] (-) TimerEvent: {}
+[24.366874] (joint_trajectory_controller) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/joint_trajectory_controller.dir/build.make:76: CMakeFiles/joint_trajectory_controller.dir/src/joint_trajectory_controller.cpp.o] Error 1\n'}
+[24.367534] (joint_trajectory_controller) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/joint_trajectory_controller.dir/all] Error 2\n'}
+[24.367676] (joint_trajectory_controller) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[24.369384] (joint_trajectory_controller) JobEnded: {'identifier': 'joint_trajectory_controller', 'rc': 'SIGINT'}
+[24.379950] (delivery_robot) JobSkipped: {'identifier': 'delivery_robot'}
+[24.380020] (force_torque_sensor_broadcaster) JobSkipped: {'identifier': 'force_torque_sensor_broadcaster'}
+[24.380037] (gamepad_pkg) JobSkipped: {'identifier': 'gamepad_pkg'}
+[24.380047] (gripper_controllers) JobSkipped: {'identifier': 'gripper_controllers'}
+[24.380057] (imu_sensor_broadcaster) JobSkipped: {'identifier': 'imu_sensor_broadcaster'}
+[24.380067] (joint_state_broadcaster) JobSkipped: {'identifier': 'joint_state_broadcaster'}
+[24.380076] (parallel_gripper_controller) JobSkipped: {'identifier': 'parallel_gripper_controller'}
+[24.380085] (pid_controller) JobSkipped: {'identifier': 'pid_controller'}
+[24.380094] (range_sensor_broadcaster) JobSkipped: {'identifier': 'range_sensor_broadcaster'}
+[24.380103] (ros2_controllers_test_nodes) JobSkipped: {'identifier': 'ros2_controllers_test_nodes'}
+[24.380112] (rqt_joint_trajectory_controller) JobSkipped: {'identifier': 'rqt_joint_trajectory_controller'}
+[24.380122] (tricycle_controller) JobSkipped: {'identifier': 'tricycle_controller'}
+[24.380131] (ackermann_steering_controller) JobSkipped: {'identifier': 'ackermann_steering_controller'}
+[24.380140] (admittance_controller) JobSkipped: {'identifier': 'admittance_controller'}
+[24.380149] (bicycle_steering_controller) JobSkipped: {'identifier': 'bicycle_steering_controller'}
+[24.380177] (effort_controllers) JobSkipped: {'identifier': 'effort_controllers'}
+[24.380190] (position_controllers) JobSkipped: {'identifier': 'position_controllers'}
+[24.380204] (tricycle_steering_controller) JobSkipped: {'identifier': 'tricycle_steering_controller'}
+[24.380216] (velocity_controllers) JobSkipped: {'identifier': 'velocity_controllers'}
+[24.380227] (ros2_controllers) JobSkipped: {'identifier': 'ros2_controllers'}
+[24.380240] (-) EventReactorShutdown: {}

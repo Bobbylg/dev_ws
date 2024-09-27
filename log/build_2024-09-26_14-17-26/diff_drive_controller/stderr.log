@@ -1,0 +1,8 @@
+[01m[K/home/bobby/dev_ws/src/ros2_controllers/diff_drive_controller/src/diff_drive_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type diff_drive_controller::DiffDriveController::update(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/bobby/dev_ws/src/ros2_controllers/diff_drive_controller/src/diff_drive_controller.cpp:104:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_lifecycle_state[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_lifecycle_state_t[m[K’?
+  104 |   if ([01;31m[Kget_lifecycle_state[m[K().id() == State::PRIMARY_STATE_INACTIVE)
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |       [32m[Krcl_lifecycle_state_t[m[K
+gmake[2]: *** [CMakeFiles/diff_drive_controller.dir/build.make:76: CMakeFiles/diff_drive_controller.dir/src/diff_drive_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:206: CMakeFiles/diff_drive_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,5 @@
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/bobby/dev_ws/src/ros2_controllers/forward_command_controller/src/multi_interface_forward_command_controller.cpp: No such file or directory
+compilation terminated.
+gmake[2]: *** [CMakeFiles/forward_command_controller.dir/build.make:104: CMakeFiles/forward_command_controller.dir/src/multi_interface_forward_command_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:239: CMakeFiles/forward_command_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

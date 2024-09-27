@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "delivery_robot")
 set(delivery_robot_VERSION "0.0.0")
-set(delivery_robot_MAINTAINER "Delivery Robot <my_email@email.com>")
+set(delivery_robot_MAINTAINER "DELIVERY <my_email@email.com>")
 set(delivery_robot_BUILD_DEPENDS )
 set(delivery_robot_BUILDTOOL_DEPENDS "ament_cmake")
 set(delivery_robot_BUILD_EXPORT_DEPENDS )

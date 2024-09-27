@@ -1,0 +1,3 @@
+[console_scripts]
+gamepad_node = gamepad_pkg.gamepad_node:main
+

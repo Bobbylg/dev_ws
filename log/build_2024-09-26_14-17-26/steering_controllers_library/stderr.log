@@ -1,0 +1,7 @@
+In file included from [01m[K/home/bobby/dev_ws/src/ros2_controllers/steering_controllers_library/src/steering_controllers_library.cpp:15[m[K:
+[01m[K/home/bobby/dev_ws/src/ros2_controllers/steering_controllers_library/include/steering_controllers_library/steering_controllers_library.hpp:73:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontroller_interface::return_type steering_controllers_library::SteeringControllersLibrary::update_reference_from_subscribers(const rclcpp::Time&, const rclcpp::Duration&)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   73 |   [01;31m[Kupdate_reference_from_subscribers[m[K(
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/steering_controllers_library.dir/build.make:76: CMakeFiles/steering_controllers_library.dir/src/steering_controllers_library.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:206: CMakeFiles/steering_controllers_library.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

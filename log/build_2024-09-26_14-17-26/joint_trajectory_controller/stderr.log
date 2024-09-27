@@ -1,0 +1,23 @@
+[01m[K/home/bobby/dev_ws/src/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::CallbackReturn joint_trajectory_controller::JointTrajectoryController::on_init()[m[K’:
+[01m[K/home/bobby/dev_ws/src/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:58:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_robot_description[m[K’ was not declared in this scope; did you mean ‘[01m[Kgoal_event_descriptions[m[K’?
+   58 |   const std::string & urdf = [01;31m[Kget_robot_description[m[K();
+      |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |                              [32m[Kgoal_event_descriptions[m[K
+[01m[K/home/bobby/dev_ws/src/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type joint_trajectory_controller::JointTrajectoryController::update(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/bobby/dev_ws/src/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:140:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_lifecycle_state[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_lifecycle_state_t[m[K’?
+  140 |   if ([01;31m[Kget_lifecycle_state[m[K().id() == lifecycle_msgs::msg::State::PRIMARY_STATE_INACTIVE)
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |       [32m[Krcl_lifecycle_state_t[m[K
+[01m[K/home/bobby/dev_ws/src/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:[m[K In member function ‘[01m[Kvoid joint_trajectory_controller::JointTrajectoryController::query_state_service(std::shared_ptr<control_msgs::srv::QueryTrajectoryState_Request_<std::allocator<void> > >, std::shared_ptr<control_msgs::srv::QueryTrajectoryState_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/bobby/dev_ws/src/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:596:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_lifecycle_state[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_lifecycle_state_t[m[K’?
+  596 |   if ([01;31m[Kget_lifecycle_state[m[K().id() != lifecycle_msgs::msg::State::PRIMARY_STATE_ACTIVE)
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |       [32m[Krcl_lifecycle_state_t[m[K
+[01m[K/home/bobby/dev_ws/src/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse joint_trajectory_controller::JointTrajectoryController::goal_received_callback(const GoalUUID&, std::shared_ptr<const control_msgs::action::FollowJointTrajectory_Goal_<std::allocator<void> > >)[m[K’:
+[01m[K/home/bobby/dev_ws/src/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:1115:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_lifecycle_state[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_lifecycle_state_t[m[K’?
+ 1115 |   if ([01;31m[Kget_lifecycle_state[m[K().id() == lifecycle_msgs::msg::State::PRIMARY_STATE_INACTIVE)
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |       [32m[Krcl_lifecycle_state_t[m[K
+gmake[2]: *** [CMakeFiles/joint_trajectory_controller.dir/build.make:76: CMakeFiles/joint_trajectory_controller.dir/src/joint_trajectory_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/joint_trajectory_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
